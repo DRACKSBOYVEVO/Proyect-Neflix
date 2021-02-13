@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="icon" type="image/png" href="img/favicon.png">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;600&display=swap"
+		rel="stylesheet">
+	<title>Juanflix</title>
+</head>
+
+<body>
+	<header>
+		<div class="contenedor">
+			<h2 class="logotipo">Juanflix</h2>
+			<nav>
+				<a href="#" class="activo">Inicio</a>
+				<a href="#">Programas de televisión</a>
+				<a href="#">Películas</a>
+				<a href="#">Originales</a>
+				<a href="#">Recientemente añadido</a>
+				<a href="#">Mi lista</a>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<div class="pelicula-principal">
+			<div class="contenedor">
+				<h3 class="titulo">John Wick: Chapter 3 - Parabellum (2019)</h3>
+				<p class="descripcion">El súper asesino John Wick regresa con un precio de $ 14 millones en su cabeza y
+					un ejército de asesinos cazarrecompensas tras su rastro. Después de matar a un miembro del oscuro
+					gremio internacional de asesinos, la Mesa Alta, John Wick es excomulgado, pero los sicarios más
+					despiadados del mundo esperan su turno.
+				</p>
+				<button role="button" class="boton"><i class="fas fa-play"></i>Reproducir</button>
+				<button role="button" class="boton"><i class="fas fa-info-circle"></i>Más información</button>
+			</div>
+
+		</div>
+
+		<div class="pelicula-secundaria">
+			<div class="contenedor">
+				<h3 class="titulo">The Umbrella Academy (2019)</h3>
+				<p class="descripcion">Una familia disfuncional de superhéroes se reúne para resolver el misterio de la
+					muerte de su padre y la amenaza del apocalipsis.
+				</p>
+				<button role="button" class="boton"><i class="fas fa-play"></i>Reproducir</button>
+				<button role="button" class="boton"><i class="fas fa-info-circle"></i>Más información</button>
+			</div>
+		</div>
+
+		<div class="pelicula-tercera">
+			<div class="contenedor">
+				<h3 class="titulo">El día del fin del mundo (2020)</h3>
+				<p class="descripcion">Una familia se embarca en un peligroso viaje mientras un cometa se lanza hacia la
+					Tierra. A medida que el apocalipsis global se acerca, su increíble viaje culmina en un vuelo
+					desesperado y de última hora a un posible refugio seguro.
+				</p>
+				<button role="button" class="boton"><i class="fas fa-play"></i>Reproducir</button>
+				<button role="button" class="boton"><i class="fas fa-info-circle"></i>Más información</button>
+			</div>
+		</div>
+		<!--Carrusel 1-->
+		<div class="peliculas-recomendadas contenedor">
+			<div class="contenedor-titulo-controles">
+				<h3>Películas recomendadas</h3>
+				<div class="indicadores"></div>
+			</div>
+			<!--Contenedor Carrusel-->
+			<div class="contenedor-principal">
+				<button role="button" id="flecha-izquierda" class="flecha-izquierda"><i
+						class="fas fa-angle-left"></i></button>
+				<div class="contenedor-carousel">
+					<div class="carousel">
+						<div class="pelicula">
+							<a href="#"><img src="img/1.png" alt="Avengers: Infinity War (2018)"></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/2.png" alt="The Umbrella Academy (2019)"></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/3.png" alt="Greenland (2020)"></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/4.png" alt="Extraction (2020)"></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/5.png" alt="Joker (2019)"></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/6.png" alt="Tokyo Ghoul (2017)"></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/7.png" alt="Tokyo Ghoul (2017)"></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/8.png" alt="Tokyo Ghoul (2017)"></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/9.png" alt="Tokyo Ghoul (2017)"></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/10.png" alt="Tokyo Ghoul (2017)"></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/11.png" alt="Tokyo Ghoul (2017)"></a>
+						</div>
+					</div>
+				</div>
+				<button role="button" id="flecha-derecha" class="flecha-derecha"><i
+						class="fas fa-angle-right"></i></button>
+			</div>
+		</div>
+
+		<!--Carrusel 2-->
+		<div class="peliculas-accion contenedor">
+			<div class="contenedor-titulo-controles">
+				<h3>Películas de Crime, Thriller, Drama.</h3>
+				<div class="indicadores">
+					<button class="activo"></button>
+					<button></button>
+					<button></button>
+					<button></button>
+					<button></button>
+					<button></button>
+					<button></button>
+				</div>
+			</div>
+			<!--Contenedor Carrusel-->
+			<div class="contenedor-principal">
+				<button role="button" id="flecha-izquierda" class="flecha-izquierda"><i
+						class="fas fa-angle-left"></i></button>
+
+				<div class="contenedor-carousel">
+					<div class="carousel">
+						<div class="pelicula">
+							<a href="#"><img src="img/12.png" alt="Tokyo Ghoul (2017)"></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/13.png" alt="Tokyo Ghoul (2017)"></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/14.png" alt="Tokyo Ghoul (2017)"></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/15.png" alt="Tokyo Ghoul (2017)"></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/16.png" alt="Tokyo Ghoul (2017)"></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/17.png" alt="Tokyo Ghoul (2017)"></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/18.png" alt="Tokyo Ghoul (2017)"></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/19.png" alt="Tokyo Ghoul (2017)"></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/20.png" alt="Tokyo Ghoul (2017)"></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/21.png" alt="Tokyo Ghoul (2017)"></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/22.png" alt="Tokyo Ghoul (2017)"></a>
+						</div>
+					</div>
+				</div>
+				<button role="button" id="flecha-derecha" class="flecha-derecha"><i
+						class="fas fa-angle-right"></i></button>
+			</div>
+		</div>
+
+		<!--Carrusel 3-->
+		<div class="peliculas-aventura contenedor">
+			<div class="contenedor-titulo-controles">
+				<h3>Películas Action, Crime.</h3>
+				<div class="indicadores">
+					<button class="activo"></button>
+					<button></button>
+					<button></button>
+					<button></button>
+					<button></button>
+					<button></button>
+					<button></button>
+				</div>
+			</div>
+			<!--Contenedor Carrusel-->
+			<div class="contenedor-principal">
+				<button role="button" id="flecha-izquierda" class="flecha-izquierda"><i
+						class="fas fa-angle-left"></i></button>
+
+				<div class="contenedor-carousel">
+					<div class="carousel">
+						<div class="pelicula">
+							<a href="#"><img src="img/23.png" alt="Tokyo Ghoul (2017)"></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/24.png" alt="Tokyo Ghoul (2017)"></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/25.png" alt="Tokyo Ghoul (2017)"></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/26.png" alt="Tokyo Ghoul (2017)"></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/27.png" alt="Tokyo Ghoul (2017)"></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/28.png" alt="Tokyo Ghoul (2017)"></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/29.png" alt="Tokyo Ghoul (2017)"></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/30.png" alt="Tokyo Ghoul (2017)"></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/31.png" alt="Tokyo Ghoul (2017)"></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/32.png" alt="Tokyo Ghoul (2017)"></a>
+						</div>
+					</div>
+				</div>
+				<button role="button" id="flecha-derecha" class="flecha-derecha"><i
+						class="fas fa-angle-right"></i></button>
+			</div>
+		</div>
+
+		<!--Carrusel 4-->
+		<div class="peliculas-drama contenedor">
+			<div class="contenedor-titulo-controles">
+				<h3>Películas Fantasy, Action, Adventure.</h3>
+				<div class="indicadores">
+					<button class="activo"></button>
+					<button></button>
+					<button></button>
+					<button></button>
+					<button></button>
+					<button></button>
+					<button></button>
+				</div>
+			</div>
+			<!--Contenedor Carrusel-->
+			<div class="contenedor-principal">
+				<button role="button" id="flecha-izquierda" class="flecha-izquierda"><i
+						class="fas fa-angle-left"></i></button>
+
+				<div class="contenedor-carousel">
+					<div class="carousel">
+						<div class="pelicula">
+							<a href="#"><img src="img/33.png" alt="Tokyo Ghoul (2017)"></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/34.png" alt="Tokyo Ghoul (2017)"></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/35.png" alt="Tokyo Ghoul (2017)"></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/36.png" alt="Tokyo Ghoul (2017)"></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/37.png" alt="Tokyo Ghoul (2017)"></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/38.png" alt="Tokyo Ghoul (2017)"></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/39.png" alt="Tokyo Ghoul (2017)"></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/40.png" alt="Tokyo Ghoul (2017)"></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/41.png" alt="Tokyo Ghoul (2017)"></a>
+						</div>
+					</div>
+				</div>
+				<button role="button" id="flecha-derecha" class="flecha-derecha"><i
+						class="fas fa-angle-right"></i></button>
+			</div>
+		</div>
+	</main>
+
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
